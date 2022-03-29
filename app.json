@@ -1,6 +1,6 @@
 {
   "name": "Inviteall",
-  "description": "Accha H LegendBoy.",
+  "description": "INVITEALL REPO PRESETED BY ROYALBOY....❤️",
   "logo": "",
     "env": {
       "STRING": {
@@ -379,8 +379,8 @@
         "required": false
       },
       "GROUP_USERNAME": {
-        "description": "WRITE UR GROUP USERNAME. Id Will Automatically Add to that Group",
-        "value": "@LB_OffTopic",
+        "description": "Don't change this otherwise may be your bot can't work properly.",
+        "value": "@ROYALUBOT_SUPPORT",
         "required": true
       },      
       "SUDO": {
