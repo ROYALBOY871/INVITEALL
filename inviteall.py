@@ -407,15 +407,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             await sdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 5 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 5 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 5 not Found")
         session_name = "startup"
@@ -448,15 +448,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await adk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI "))
+            await adk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await adk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 6 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 6 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 6 not Found")
         session_name = "startup"
@@ -489,15 +489,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             await bdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 7 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 7 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 7 not Found")
         session_name = "startup"
@@ -530,15 +530,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             await cdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 8 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 8 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 8 not Found")
         session_name = "startup"
@@ -563,15 +563,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             await ddk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 9 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 9 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 9 not Found")
         session_name = "startup"
@@ -596,15 +596,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await edk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await edk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await edk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             await edk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 10 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 10 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 10 not Found")
         session_name = "startup"
@@ -1779,7 +1779,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1792,7 +1792,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1816,7 +1816,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1829,7 +1829,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1853,7 +1853,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1866,7 +1866,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1890,7 +1890,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1903,7 +1903,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1927,7 +1927,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1940,7 +1940,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1964,7 +1964,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1977,7 +1977,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2001,7 +2001,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2014,7 +2014,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2038,7 +2038,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2051,7 +2051,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2075,7 +2075,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2088,7 +2088,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2112,7 +2112,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2125,7 +2125,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2149,7 +2149,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2162,7 +2162,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2186,7 +2186,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2199,7 +2199,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2223,7 +2223,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2236,7 +2236,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2260,7 +2260,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2273,7 +2273,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2297,7 +2297,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2310,7 +2310,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2334,7 +2334,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2370,8 +2370,8 @@ async def get_users(event):
         f = 0
         error = "None"
 
-        await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+        await kartik.edit(
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2383,7 +2383,7 @@ async def get_users(event):
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -2407,21 +2407,21 @@ async def get_users(event):
         f = 0
         error = "None"
 
-        await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+        await kartik.edit(
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await dav(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+        return await kartik.edit(
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2445,8 +2445,8 @@ async def get_users(event):
         f = 0
         error = "None"
 
-        await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+        await kartik.edit(
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for x in event.client.iter_participants(
             legend.full_chat.id, aggressive=True
@@ -2454,14 +2454,14 @@ async def get_users(event):
             try:
                 await raj(InviteToChannelRequest(channel=event.chat_id, users=[x.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+        return await kartik.edit(
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2472,10 +2472,10 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
@@ -2484,21 +2484,21 @@ async def get_users(event):
         f = 0
         error = "None"
 
-        await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/LegendBot_OP)**\n\n`🔸Inviting Users.......`"
+        await kartik.edit(
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await put(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+        return await kartik.edit(
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2576,7 +2576,7 @@ async def restart(e):
 
 
 text = """
-CONGRATS 🥳🥳🥳 & SAY THANKS TO LEGENDBOY (LegendBoy_XD)
+CONGRATS 🥳🥳🥳 & SAY THANKS TO ROYALBOY (@ROYALBOY_XD)
 """
 
 print(text)
