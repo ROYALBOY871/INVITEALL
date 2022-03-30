@@ -6,4 +6,4 @@
 
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
--[REPLIT STRING](https://replit.com/@kartikGaming/ROYALBOTSTRING)
+-[![String](https://te.legra.ph/file/66a4ca1da262c3203a336.jpg)](https://replit.com/@kartikGaming/ROYALBOTSTRING)
