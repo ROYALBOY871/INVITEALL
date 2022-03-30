@@ -261,14 +261,14 @@ async def start_yukki():
             print("Booting Up The Client 1")
             await idk.start()
             botme = await idk.get_me()
-            await idk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await idk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await idk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await idk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await idk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 1 & Replace It. Join @ROYALUSERBOT_SUPPORT For Any Help")
+            print("Check String 1 & Replace It. Join @ROYALUBOT_SUPPORT For Any Help")
     else:
         print("Session 1 not Found")
         session_name = "startup"
@@ -292,15 +292,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await ydk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 2 & Replace It. Join @ROYALUSERBOT_SUPPORT For Any Help")
+            print("Check String 2 & Replace It. Join @ROYALUBOT_SUPPORT For Any Help")
     else:
         print("Session 2 not Found")
         session_name = "startup"
@@ -325,8 +325,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT_SUPPORT"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT"))
             await wdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -366,8 +366,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await hdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -407,8 +407,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await sdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -448,8 +448,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await adk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await adk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await adk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -489,8 +489,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await bdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -530,8 +530,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await cdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -563,8 +563,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await ddk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -596,8 +596,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await edk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await edk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await edk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await edk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -629,8 +629,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             await vkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -661,9 +661,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await kkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -694,9 +694,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await lkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -727,9 +727,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await mkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -760,9 +760,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@ROYAUSERBOT"))
+            await sid(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await sid(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await sid(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await sid(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -794,9 +794,9 @@ async def start_yukki():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await shy(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await shy(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shy(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await shy(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -827,9 +827,9 @@ async def start_yukki():
             print("Booting Up The Client 17")
             await aan.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await aan(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await aan(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await aan(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await aan(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -860,9 +860,9 @@ async def start_yukki():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await ake(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await ake(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await ake(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await ake(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -893,9 +893,9 @@ async def start_yukki():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await eel(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await eel(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await eel(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await eel(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -926,9 +926,9 @@ async def start_yukki():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await khu(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await khu(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await khu(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
+            await khu(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -959,9 +959,9 @@ async def start_yukki():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
-            await shi(functions.channels.JoinChannelRequest(channel="@ROYALUSERBIT"))
+            await shi(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await shi(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shi(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await shi(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -992,9 +992,9 @@ async def start_yukki():
             print("Booting Up The Client 22")
             await yaa.start()
             botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await yaa(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await yaa(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1025,9 +1025,9 @@ async def start_yukki():
             print("Booting Up The Client 23")
             await dav.start()
             botme = await dav.get_me()
-            await dav(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await dav(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await dav(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await dav(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await dav(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1058,9 +1058,9 @@ async def start_yukki():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
-            await raj(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await raj(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await raj(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await raj(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await raj(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1091,9 +1091,9 @@ async def start_yukki():
             print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await put(functions.channels.JoinChannelRequest(channel="@ROYALYSERBOT"))
             await put(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await put(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT "))
+            await put(functions.channels.JoinChannelRequest(channel="@ROYALUBOT_SUPPORT "))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
@@ -1591,7 +1591,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**📡[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**📡[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for x in event.client.iter_participants(
             legend.full_chat.id, aggressive=True
@@ -1606,7 +1606,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1631,7 +1631,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**📡[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**📡[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1644,7 +1644,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1668,7 +1668,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**📡[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**📡[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1681,7 +1681,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1705,20 +1705,20 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await hdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await kartik.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"📡**Inviting Users🕸️ **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1742,20 +1742,20 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await sdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await kartik.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"📡**Inviting Users🕸️ **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1779,20 +1779,20 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await adk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
                 await kartik.edit(
-                    f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
+                    f"📡**Inviting Users🕸️ **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1816,7 +1816,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1829,7 +1829,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1853,7 +1853,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1866,7 +1866,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1890,7 +1890,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1903,7 +1903,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1927,7 +1927,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1940,7 +1940,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1964,7 +1964,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1977,7 +1977,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2001,7 +2001,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2014,7 +2014,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2038,7 +2038,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2051,7 +2051,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2075,7 +2075,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2088,7 +2088,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2112,7 +2112,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2125,7 +2125,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2149,7 +2149,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2162,7 +2162,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2186,7 +2186,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2199,7 +2199,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2223,7 +2223,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2236,7 +2236,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2260,7 +2260,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2273,7 +2273,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2297,7 +2297,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2310,7 +2310,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2334,7 +2334,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2347,7 +2347,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2371,7 +2371,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2384,7 +2384,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/LegendBot_OP) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2408,7 +2408,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2421,7 +2421,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2446,7 +2446,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for x in event.client.iter_participants(
             legend.full_chat.id, aggressive=True
@@ -2461,7 +2461,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -2485,7 +2485,7 @@ async def get_users(event):
         error = "None"
 
         await kartik.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2498,7 +2498,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await kartik.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
