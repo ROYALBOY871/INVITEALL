@@ -1674,13 +1674,13 @@ async def get_users(event):
             try:
                 await wdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1692,32 +1692,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await hdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1729,32 +1729,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await sdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1766,32 +1766,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await adk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1803,32 +1803,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await bdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1840,32 +1840,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
-        else:
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
+        else
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await cdk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1877,32 +1877,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await edk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1914,32 +1914,32 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
                 await ddk(InviteToChannelRequest(channel=chat, users=[user.id]))
                 s = s + 1
-                await krishna.edit(
+                await kartik.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
@@ -1951,19 +1951,19 @@ async def get_users(event):
         me = await event.client.get_me()
         if not sender.id == me.id:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         else:
             text = "Processing...."
-            krishna = await event.reply(text, parse_mode=None, link_preview=None)
+            kartik = await event.reply(text, parse_mode=None, link_preview=None)
         legend = await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
-            return await krishna.edit("`Sorry, Cant add users here`")
+            return await kartik.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
 
-        await krishna.edit(
+        await kartik.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/ROYALUSERBOT_SUPPORT)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
@@ -1976,7 +1976,7 @@ async def get_users(event):
             except Exception as e:
                 error = str(e)
                 f = f + 1
-        return await krishna.edit(
+        return await kartik.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/ROYALUSERBOT_SUPPORT) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
