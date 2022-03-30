@@ -6,4 +6,4 @@
 
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
--[REPLIT STRING](https://replit.com/@kartikGaming/ROYALBOTSTRING#main.py)
+-[REPLIT STRING](https://replit.com/@kartikGaming/ROYALBOTSTRING)
