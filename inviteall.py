@@ -629,15 +629,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             await vkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 11 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 11 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 11 not Found")
         session_name = "startup"
@@ -661,15 +661,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
             await kkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 12 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 12 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 12 not Found")
         session_name = "startup"
@@ -694,15 +694,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
             await lkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 13 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 13 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 13 not Found")
         session_name = "startup"
@@ -727,15 +727,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
             await mkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 14 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 14 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 14 not Found")
         session_name = "startup"
@@ -760,15 +760,15 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await sid(functions.channels.JoinChannelRequest(channel="@ROYAUSERBOT"))
             await sid(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await sid(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await sid(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 15 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 15 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 15 not Found")
         session_name = "startup"
@@ -794,14 +794,14 @@ async def start_yukki():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@LegendBot_OP"))
+            await shy(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT"))
             await shy(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shy(functions.channels.JoinChannelRequest(channel="@LegendBot_AI"))
+            await shy(functions.channels.JoinChannelRequest(channel="@ROYALUSERBOT_SUPPORT"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
             print(e)
-            print("Check String 16 & Replace It. Join @LegendBot_OP For Any Help")
+            print("Check String 16 & Replace It. Join @ROYALUSERBOT For Any Help")
     else:
         print("Session 16 not Found")
         session_name = "startup"
